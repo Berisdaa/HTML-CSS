@@ -1,0 +1,224 @@
+.wrapper{
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    background-color: lavender;
+}
+
+header{
+    background-image: url(images/g1.jpg);
+    width: 100%;
+}
+
+header p{
+    font-size: 100px;
+    top: 33px;
+    font-family: 'Avocado Creamy';
+    color: beige;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;  
+    font-family: 'Avocado Creamy' ;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    color: rgb(4, 4, 58);
+}
+
+section h4{
+    font-size: 50px;
+    font-family: 'Avocado Creamy';
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.p2 p{
+    font-family: 'DK Lemon Yellow Sun';
+    font-size: 30px;
+}
+
+.p2 h4{
+    color: rgb(4, 4, 58);
+}
+
+section p{
+    font-family: 'DK Lemon Yellow Sun';
+    padding: 7px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section h2{
+    text-align: center;
+    font-family: 'Avocado Creamy';
+    font-size: 55px;
+    color: rgb(4, 4, 58);
+    
+}
+
+section h3{
+    text-align: center;
+    font-family: 'Avocado Creamy';
+    font-size: 55px;
+    margin-bottom: -3px;
+    color: rgb(4, 4, 58);
+}
+
+section ul li{
+    font-size: 25px;
+    font-family: 'DK Lemon Yellow Sun';
+}
+
+section img{
+     display: block;
+     margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+section strong{
+    color: rgb(15, 15, 95);
+}
+
+.img{
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.img2{
+    width: 700px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.social-media p{
+    font-size: 30px;
+    font-family: 'SweetAndPretty';
+    text-align: center;
+    border: 1px solid rgb(15, 15, 95);
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 33%;
+    font-weight: bolder;
+}
+
+.social-media p{
+    color: rgb(15, 15, 95);
+}
+
+nav{
+    clear: both;
+}
+
+header ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(4, 4, 58);
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-family: 'DK Lemon Yellow Sun';
+    font-size: 25px;
+}
+
+header ul li{
+    color: #ffffff;
+    background: rgb(4, 4, 58);
+    border: 1px black;
+    padding: 1rem;
+    display: inline-block;
+    position: relative;
+    font-family: 'DK Lemon Yellow Sun';
+    font-size: 20px;
+}
+
+header ul li a {
+    color: #ffffff;
+    font-family: 'DK Lemon Yellow Sun';
+}
+
+header ul li:hover {
+    background: rgb(127, 185, 231);
+    cursor: pointer;
+}
+
+header ul li ul {
+    background: rgb(4, 4, 58);
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5rem;
+    left: 0;
+    display: none;
+}
+
+header ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+header ul li ul li {
+    clear: none;
+    width: 100%;
+}
+
+.khusus-kontak{
+    margin-bottom: 10px;
+}
+
+
+footer {
+    margin: 3%;
+    text-align: center;
+    font-family: 'Wild Hazelnut';
+    font-size: 30px;
+    color: white;
+    background-color: rgb(4, 4, 58);
+}
+
+
+@media only screen and (max-width : 500px){
+    body{
+        background-color: rgb(48, 77, 172);
+    }
+}
+
+@font-face{
+    font-family: 'Avocado Creamy';
+    src: url(fonts/Avocado\ Creamy.otf Creamy.otf);
+}
+
+
+@font-face{
+    font-family: 'SweetAndPretty';
+    src: url(fonts/SweetAndPretty.ttf);
+}
+
+@font-face{
+    font-family: 'DK Lemon Yellow Sun';
+    src: url(fonts/DK\ Lemon\ Yellow\ Sun.otf Lemon Yellow Sun.otf);
+}
+
+
+@font-face{
+    font-family: 'Wild Hazelnut';
+    src: url(fonts/Wild\ Hazelnut.ttf Hazelnut.ttf);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+.{
+    margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    margin-top: 7%;
+}
+
+section {
+    margin-top: 2%;
+}
+
+footer {
+    margin: 3%;
+    text-align: center;
+}
+
+section p{
+    margin-top: -3%;
+}
+
+h1{
+    font-size: 57px;
+    color: black;
+    top: 30px;
+}
+
+h2{
+    font-size: 30px;  
+}
+
+p{
+    font-family: Arial;
+    padding: 7px;
+}
+
+section p {
+    margin-top: 2%;
+}
+
+section img {
+    margin-top: -2%;
+}
+
+img{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header img {
+    margin-bottom: 20px;
+    margin-top: -25px;
+    width: 13%;
+    float: left;
+}
+
+header h1 {
+    margin-left: 15%;
+    margin-bottom: -7%;
+}
+
+nav{
+    clear: both;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkorange;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+ul li{
+    color: #ffffff;
+    background: darkorange;
+    border: 1px black;
+    padding: 1rem;
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    color: #ffffff;
+}
+
+ul li:hover {
+    background: red;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: none;
+    width: 100%;
+}
+
+.judul {
+    font-size: 50px;
+    color: brown;
+}
+
+.judul2 {
+    font-size: 30px;
+    color: rgb(241, 116, 70);
+}
+
+.judul3 {
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+
+.tabelwarna {
+    background-color: coral;
+}
+
+
+@media only screen and (max-width : 500px){
+    body{
+        background-color: darksalmon;
+    }
+}
+
